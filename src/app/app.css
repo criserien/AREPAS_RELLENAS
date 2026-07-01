@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+  background-color: #F4B454;
+  padding: 10px;
+  position: fixed; /* Cambiado de sticky a fixed */
+  bottom: 0;       /* Pegado abajo */
+  left: 0;
+  width: 100%;
+  z-index: 1000; 
+}
+
+/* Evita que el footer tape el final del contenido de tu main */
+main.contenido-principal {
+  padding-bottom: 100px; /* Ajusta este valor según el alto de tu footer */
+}
+
+.nav-fijo {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Evita que el contenido del router-outlet pase por encima del navbar */
+}
+
+.caja-abajo {
+  display: flex;
+  justify-content: center; /* Centrado horizontal */
+  align-items: center;     /* Centrado vertical */
+}
+.caja-arriba {
+  display: flex;
+  justify-content: center; /* Centrado horizontal */
+  align-items: center;     /* Centrado vertical */
+  background-color: green;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+span{
+  color: white;
+  text-align: center;
+}
+
+.datos {
+  color: black;
+  text-align: center;
+}

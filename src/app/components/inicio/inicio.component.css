@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/rellena.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    height: 40vh;
+}
+
+.contenido {
+    color: white;
+    margin-top: 1.5vh;
+    font-weight: 850; /* Un grosor de negrita estándar */
+    font-size: 20px;
+}
+
+.boton {
+    width: 30vw;
+    padding: 5px;
+    color: black;
+    background-color: #FAB116;
+    font-size: 16px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+img {
+    width: 30vw;
+    height: 25vh;
+}
+
+.caja1-1 {
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-weight: 850; /* Un grosor de negrita estándar */
+    font-size: 20px;
+}
+
+.caja2 {
+    display: flex;
+    padding: 10px;
+}
+
+.caja2-1 {
+    padding: 10px;
+}
+
+.caja2-1-1 {
+    font-size: 18px;
+}

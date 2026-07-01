@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8f9fa;
+}
+
+img {
+    height: 8vh;
+}
+
+.icono {
+    font-size: 36px;
+    padding-top: 1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.caja-abajo {
+    display: flex;
+}
